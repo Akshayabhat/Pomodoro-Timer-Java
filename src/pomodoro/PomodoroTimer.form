@@ -65,9 +65,9 @@
                                   </Group>
                                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="longBreak" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="longBreakTime" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="shortBreak" alignment="0" pref="80" max="32767" attributes="0"/>
+                                          <Component id="shortBreakTime" alignment="0" pref="80" max="32767" attributes="0"/>
                                           <Component id="pomodoroTime" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -105,12 +105,12 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="shortBreakLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="shortBreak" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="shortBreakTime" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="longBreakLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="longBreak" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="longBreakTime" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -213,14 +213,14 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pomodoroTimeActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="shortBreak">
+        <Component class="javax.swing.JTextField" name="shortBreakTime">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="text" type="java.lang.String" value="0:05:00"/>
             <Property name="alignmentY" type="float" value="0.6"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="longBreak">
+        <Component class="javax.swing.JTextField" name="longBreakTime">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="text" type="java.lang.String" value="0:30:00"/>
